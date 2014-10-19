@@ -1,0 +1,28 @@
+{
+  "name": "mace",
+  "version": "1.0.0",
+  "description": "Fetch source with your http request but delegate some other url",
+  "main": "./lib/mace.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lichenhao/mace"
+  },
+  "keywords": [
+    "util",
+    "underscore",
+    "commander",
+    "log",
+    "logue",
+    "debug",
+    "http"
+  ],
+  "dependencies": {},
+  "author": "lichenhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lichenhao/mace/issues"
+  },
+  "homepage": "https://lichenhao.github.io/mace",
+  "readmeFile": "README.md"
+}

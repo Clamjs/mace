@@ -5,17 +5,13 @@ Not like underscore, this is all for NodeJs.
 # How to use
 
 ```
-var util = require('mace')(module);
-// live load file and support ason (active json file);
+var util = require('mace');
 // -
-// |-> demo.ason
+// |-> demo.js
 // 
-// @example demo.ason
-// {
-//    // support comment for json in ason
-//    "test": true 
-// }
-//  util.use('./demo.ason'); 
+// 
+// exports.test = true;
+//  util.use('./demo.js'); 
 // =>  {
 //    "test": true
 // }
@@ -54,7 +50,7 @@ util.MCString
 util.pad 
 // 12312312313 => 2011-02-03 12:10:11
 util.stamp
-// util.Guid('clam') => function () {} 
+// util.Guid('clam') => function () {return 'clam+id'} 
 // clamxxxxx
 util.Guid
 ```
